@@ -1,0 +1,5 @@
+<form [formGroup]="loginForm">
+    <input type="text" placeholder="Uživatelské jméno" formControlName="username">
+    <input type="password" placeholder="Heslo" formControlName="password">
+    <button (click)="login()">Přihlásit se</button>
+</form>
