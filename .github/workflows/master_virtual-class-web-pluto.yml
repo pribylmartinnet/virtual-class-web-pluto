@@ -53,4 +53,6 @@ jobs:
           app-name: 'virtual-class-web-pluto'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7B896D8383104F5193F224A02D619468 }}
-          package: .
+          package: ./dist/virtual-class-web-pluto
+          
+          
